@@ -1,0 +1,89 @@
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.character-count-card {
+  background-color: #ffc533;
+  width: 50vw;
+  min-height: 100vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.count-card {
+  width: 100%;
+  background-color: #ffbf1f;
+  height: 20vh;
+  padding: 25px;
+  margin-bottom: 35px;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.input-img {
+  height: 400px;
+}
+
+.counter-container {
+  background-color: #0f172a;
+  width: 50vw;
+  padding: 15px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter {
+  color: #ffc533;
+  text-align: center;
+  font-family: Roboto;
+  margin-bottom: 75px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-text {
+  background-color: #ffffff;
+  height: 40px;
+  width: 90%;
+  color: #334155;
+  font-family: Roboto;
+  font-size: 15px;
+  margin-right: 15px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+
+.add-btn {
+  height: 42px;
+  background-color: #ffc533;
+  border-radius: 5px;
+  width: 100px;
+  color: #272c47;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
